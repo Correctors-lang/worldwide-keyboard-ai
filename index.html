@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité — Worldwide Keyboard AI</title>
+<meta name="description" content="Déclaration de confidentialité du clavier Worldwide Keyboard AI / Privacy policy of the Worldwide Keyboard AI keyboard.">
+<style>
+  :root {
+    --fond: #ffffff;
+    --texte: #16181d;
+    --doux: #5b6170;
+    --trait: #e2e5ea;
+    --accent: #c75b12;
+    --encart: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #14161a;
+      --texte: #e7e9ee;
+      --doux: #a0a7b4;
+      --trait: #2a2e36;
+      --accent: #f0932b;
+      --encart: #1c1f25;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #14161a;
+    --texte: #e7e9ee;
+    --doux: #a0a7b4;
+    --trait: #2a2e36;
+    --accent: #f0932b;
+    --encart: #1c1f25;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--texte);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .page { max-width: 46rem; margin: 0 auto; padding: 2.5rem 16px 4rem; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .25rem; }
+  h2 {
+    font-size: 1.25rem; margin: 2.75rem 0 .75rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--trait);
+  }
+  h3 { font-size: 1.02rem; margin: 1.6rem 0 .4rem; }
+  p, li { margin: .55rem 0; }
+  ul { padding-left: 1.2rem; }
+  .date { color: var(--doux); font-size: .9rem; margin: 0 0 1.5rem; }
+  .resume {
+    background: var(--encart);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: .9rem 1.1rem;
+    margin: 1.5rem 0;
+  }
+  .resume p:first-child { margin-top: 0; }
+  .resume p:last-child { margin-bottom: 0; }
+  .langues { display: flex; gap: .5rem; margin-bottom: 2rem; flex-wrap: wrap; }
+  .langues a {
+    border: 1px solid var(--trait); border-radius: 999px;
+    padding: .3rem .9rem; text-decoration: none; color: var(--texte);
+    font-size: .92rem;
+  }
+  .langues a:hover { border-color: var(--accent); color: var(--accent); }
+  a { color: var(--accent); }
+  code {
+    background: var(--encart); border-radius: 4px; padding: .1em .35em;
+    font-size: .92em; word-break: break-word;
+  }
+  footer { margin-top: 3rem; color: var(--doux); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <h1>Worldwide Keyboard AI</h1>
+  <p class="date">Déclaration de confidentialité / Privacy policy — 6 novembre 2026</p>
+
+  <nav class="langues">
+    <a href="#francais">Français</a>
+    <a href="#english">English</a>
+  </nav>
+
+  <h2 id="francais">Français</h2>
+
+  <div class="resume">
+    <p><strong>En résumé :</strong> ce clavier ne collecte rien. Ce que vous
+    tapez reste sur votre téléphone. Il n'y a ni compte, ni publicité, ni
+    mouchard, ni statistique d'usage, et aucune frappe n'est envoyée nulle
+    part — y compris par l'intelligence artificielle, qui calcule sur
+    l'appareil.</p>
+  </div>
+
+  <h3>Qui publie cette application</h3>
+  <p>Worldwide Keyboard AI est une application développée à titre individuel.
+  Les questions relatives à cette déclaration peuvent être posées
+  publiquement dans les
+  <a href="https://github.com/Correctors-lang/worldwide-keyboard-ai/issues">tickets de ce dépôt</a>.</p>
+
+  <h3>Ce qui ne sort jamais du téléphone</h3>
+  <ul>
+    <li><strong>Vos frappes.</strong> La correction orthographique, la
+    grammaire, la prédiction du mot suivant et la saisie par glissement sont
+    calculées sur l'appareil, par une bibliothèque embarquée dans
+    l'application. Aucun caractère saisi n'est transmis à un serveur.</li>
+    <li><strong>Les textes confiés à l'IA.</strong> Le modèle de langue
+    s'exécute <em>sur le téléphone</em>. Écrire, corriger ou reformuler un
+    texte avec l'IA n'envoie ce texte à personne.</li>
+    <li><strong>Votre dictionnaire personnel</strong>, les mots que vous
+    ajoutez, vos réglages, vos emojis récents et le presse-papiers du clavier.
+    Tout cela reste dans l'espace privé de l'application et disparaît à la
+    désinstallation.</li>
+  </ul>
+
+  <h3>Les seules connexions que l'application établit</h3>
+  <p>Elles sont toutes déclenchées par une action de votre part, et aucune ne
+  transporte ce que vous écrivez.</p>
+  <ul>
+    <li><strong>Les paquets de langue.</strong> Dictionnaires et règles sont
+    téléchargés depuis
+    <code>github.com/Correctors-lang/clavier-langues</code> quand vous ajoutez
+    une langue ou qu'une mise à jour est disponible. La requête ne contient
+    que le nom du fichier demandé ; comme toute requête web, elle expose votre
+    adresse IP à GitHub.</li>
+    <li><strong>Le modèle d'intelligence artificielle</strong> (facultatif) est
+    téléchargé une seule fois depuis <code>huggingface.co</code> si vous
+    activez la fonction. Ensuite, il fonctionne hors ligne.</li>
+    <li><strong>La recherche de GIF</strong> (facultatif) n'a lieu que si vous
+    ouvrez ce panneau : les mots que vous y tapez sont envoyés au fournisseur
+    choisi dans les réglages, dont la politique de confidentialité s'applique
+    alors à cette requête. Fermez le panneau et plus rien n'est envoyé.</li>
+    <li><strong>La dictée vocale</strong> (facultative, permission micro) est
+    assurée par le moteur de reconnaissance installé sur votre téléphone, pas
+    par ce clavier. Si ce moteur n'est pas un moteur hors ligne, c'est son
+    éditeur — souvent Google — qui reçoit l'audio, selon ses propres règles.
+    Le clavier n'enregistre rien.</li>
+  </ul>
+
+  <h3>Les permissions et ce qu'elles servent</h3>
+  <ul>
+    <li><strong>Contacts</strong> (facultative) : si vous l'accordez, les noms
+    de vos contacts sont lus pour être ajoutés au dictionnaire local, afin
+    qu'ils ne soient plus soulignés comme des fautes. Ces noms restent sur le
+    téléphone et ne sont jamais transmis. Refuser cette permission n'empêche
+    rien d'autre.</li>
+    <li><strong>Microphone</strong> (facultative) : uniquement pour la dictée,
+    et seulement pendant que vous dictez.</li>
+    <li><strong>Internet</strong> : pour les quatre cas listés ci-dessus, et
+    rien d'autre.</li>
+    <li><strong>Vibration</strong> : le retour tactile des touches.</li>
+    <li><strong>Modification des réglages système</strong> (facultative) :
+    uniquement pour le verrou de rotation d'écran pendant la frappe, si vous
+    activez ce réglage. Le clavier remet ensuite le réglage comme il
+    l'a trouvé.</li>
+    <li><strong>Service de premier plan</strong> : le modèle d'IA tourne dans
+    un processus séparé pour ne pas être interrompu en pleine génération. Ce
+    processus ne communique avec rien d'extérieur au téléphone.</li>
+  </ul>
+
+  <h3>Journaux et diagnostics</h3>
+  <p>La version publiée n'écrit aucun journal de diagnostic sur le disque et
+  n'envoie aucun rapport d'incident automatique. Un journal détaillé existe
+  dans les versions de développement, qui ne quittent pas la machine du
+  développeur.</p>
+
+  <h3>Mode privé</h3>
+  <p>Un réglage « mode privé permanent » supprime tout historique local :
+  emojis récents, cache des GIF, et bloque les captures d'écran du clavier.</p>
+
+  <h3>Enfants</h3>
+  <p>L'application ne collecte aucune donnée personnelle, quel que soit l'âge
+  de la personne qui l'utilise.</p>
+
+  <h3>Vos droits</h3>
+  <p>Aucune donnée n'étant collectée ni transmise, il n'y a rien à consulter,
+  rectifier ou supprimer chez nous : tout est sur votre téléphone, et la
+  désinstallation efface l'ensemble. Vous pouvez aussi vider les données de
+  l'application depuis les réglages Android.</p>
+
+  <h3>Modifications</h3>
+  <p>Toute évolution de cette déclaration sera publiée sur cette page, avec sa
+  date. L'historique complet des versions est consultable publiquement dans
+  l'historique Git de ce dépôt.</p>
+
+  <h2 id="english">English</h2>
+
+  <div class="resume">
+    <p><strong>In short:</strong> this keyboard collects nothing. What you type
+    stays on your phone. There is no account, no advertising, no tracker and no
+    usage analytics, and no keystroke is ever sent anywhere — including by the
+    artificial intelligence, which runs on the device.</p>
+  </div>
+
+  <h3>Who publishes this application</h3>
+  <p>Worldwide Keyboard AI is developed by an individual. Questions about this
+  policy can be asked publicly in this repository's
+  <a href="https://github.com/Correctors-lang/worldwide-keyboard-ai/issues">issue tracker</a>.</p>
+
+  <h3>What never leaves the phone</h3>
+  <ul>
+    <li><strong>Your keystrokes.</strong> Spell checking, grammar, next-word
+    prediction and glide typing are computed on the device, by a library
+    bundled in the application. No typed character is sent to any server.</li>
+    <li><strong>The text you give to the AI.</strong> The language model runs
+    <em>on the phone</em>. Writing, correcting or rephrasing a text with the AI
+    sends that text to no one.</li>
+    <li><strong>Your personal dictionary</strong>, the words you add, your
+    settings, your recent emoji and the keyboard clipboard. All of it stays in
+    the application's private storage and is gone when you uninstall.</li>
+  </ul>
+
+  <h3>The only connections the application makes</h3>
+  <p>Each one is triggered by something you do, and none of them carries what
+  you write.</p>
+  <ul>
+    <li><strong>Language packs.</strong> Dictionaries and rules are downloaded
+    from <code>github.com/Correctors-lang/clavier-langues</code> when you add a
+    language or an update is available. The request contains only the name of
+    the file being fetched; like any web request, it exposes your IP address to
+    GitHub.</li>
+    <li><strong>The AI model</strong> (optional) is downloaded once from
+    <code>huggingface.co</code> if you enable the feature. After that it works
+    offline.</li>
+    <li><strong>GIF search</strong> (optional) only happens while that panel is
+    open: the words you type there are sent to the provider selected in the
+    settings, whose own privacy policy then applies to that request. Close the
+    panel and nothing more is sent.</li>
+    <li><strong>Voice dictation</strong> (optional, microphone permission) is
+    performed by the speech recogniser installed on your phone, not by this
+    keyboard. If that recogniser is not an offline one, its vendor — often
+    Google — receives the audio under its own terms. The keyboard records
+    nothing.</li>
+  </ul>
+
+  <h3>Permissions and what they are for</h3>
+  <ul>
+    <li><strong>Contacts</strong> (optional): if you grant it, your contacts'
+    names are read so they can be added to the local dictionary and stop being
+    underlined as mistakes. Those names stay on the phone and are never
+    transmitted. Declining blocks nothing else.</li>
+    <li><strong>Microphone</strong> (optional): dictation only, and only while
+    you are dictating.</li>
+    <li><strong>Internet</strong>: for the four cases listed above, and nothing
+    else.</li>
+    <li><strong>Vibration</strong>: key press feedback.</li>
+    <li><strong>Modify system settings</strong> (optional): only for the
+    screen rotation lock while typing, if you turn that setting on. The
+    keyboard then restores the setting exactly as it found it.</li>
+    <li><strong>Foreground service</strong>: the AI model runs in a separate
+    process so it is not killed mid-generation. That process talks to nothing
+    outside the phone.</li>
+  </ul>
+
+  <h3>Logs and diagnostics</h3>
+  <p>The published build writes no diagnostic log to disk and sends no
+  automatic crash report. A detailed log exists in development builds, which
+  never leave the developer's machine.</p>
+
+  <h3>Private mode</h3>
+  <p>A “permanent private mode” setting removes every local history: recent
+  emoji, GIF cache, and blocks screenshots of the keyboard.</p>
+
+  <h3>Children</h3>
+  <p>The application collects no personal data, whatever the age of the person
+  using it.</p>
+
+  <h3>Your rights</h3>
+  <p>Since no data is collected or transmitted, there is nothing on our side to
+  access, correct or delete: everything is on your phone, and uninstalling
+  erases all of it. You can also clear the application's data from the Android
+  settings.</p>
+
+  <h3>Changes</h3>
+  <p>Any change to this policy will be published on this page, with its date.
+  The full version history is publicly readable in this repository's Git
+  history.</p>
+
+  <footer>
+    <p>Worldwide Keyboard AI — <a href="https://github.com/Correctors-lang">Correctors-lang</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
